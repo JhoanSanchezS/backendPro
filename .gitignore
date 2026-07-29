@@ -1,0 +1,14 @@
+# Dependencias (Esto ignora la carpeta node_modules)
+node_modules/
+
+# Variables de entorno (¡CRÍTICO PARA LA SEGURIDAD!)
+.env
+
+# Logs de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos ocultos del sistema operativo (Mac/Windows)
+.DS_Store
+Thumbs.db
