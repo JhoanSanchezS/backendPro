@@ -30,7 +30,6 @@ app.get('/api/prueba', (req, res) => {
 });
 
 // --- RUTAS ---
-app.use('/api/consumo', require('./routes/consumoRoutes'));
 app.use('/api/usuarios', require('./routes/usuarioRoutes')); // <- ESTA ES LA LÍNEA NUEVA
 
 // --- INICIAR SERVIDOR ---
